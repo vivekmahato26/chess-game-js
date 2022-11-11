@@ -563,7 +563,7 @@ const validateKingsMoves = (piece) => {
     for (const m of moves) {
         for (const opp of oppPieces) {
             for (const om of opp.moves) {
-                // console.log(om,m)
+                console.log(om,m)
                 if (!opp.name.includes("Pawn") && om.x != m.x && om.y != m.y) newMoves.push(m);
             }
             console.log(x++)
