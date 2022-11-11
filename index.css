@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#board {
+    width: 640px;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+}
+
+.box {
+    width: 80px;
+    height: 80px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.imgPiece {
+    width: 50px;
+    height: 50px;
+}
+
+.hideImg {
+    display: none;
+}
+
+.possibleMove {
+    background-color: #f1c40f2e !important;
+}
+
+.cantKill {
+    background-color: #e74c3c !important;
+}
+
+.canKill {
+    background-color: #2ecc71 !important;
+}
